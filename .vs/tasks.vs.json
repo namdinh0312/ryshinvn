@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Ryshin",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-bundlejsv1016",
+      "appliesTo": "wwwroot/bundlejsv1016/",
+      "type": "launch"
+    }
+  ]
+}
