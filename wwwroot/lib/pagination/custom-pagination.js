@@ -83,8 +83,8 @@ var Pagination = {
     },
 
     // next page
-    Next: function () {
-        Pagination.page++;
+    Next: function (increNumber=1) {
+        Pagination.page += increNumber;
         if (Pagination.page > Pagination.size) {
             Pagination.page = Pagination.size;
         }

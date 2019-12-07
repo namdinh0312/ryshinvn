@@ -105,7 +105,7 @@ p,
 .wrapper960:after,
 .wrapper1280:before,
 .wrapper1280:after{
-  content: "";
+  content: ".";
   display: block;
   height: 0;
   overflow: hidden;
